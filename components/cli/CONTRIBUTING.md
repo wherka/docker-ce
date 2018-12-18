@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 # Contributing to Docker
 
 Want to hack on Docker? Awesome!  We have a contributor's guide that explains
 [setting up a Docker development environment and the contribution
 process](https://docs.docker.com/opensource/project/who-written-for/). 
+=======
+# Contributing to Docker CE
+
+Want to contribute on Docker CE? Awesome!
+>>>>>>> refs/components/cli/HEAD
 
 This page contains information about reporting issues as well as some tips and
 guidelines useful to experienced open source contributors. Finally, make sure
@@ -12,9 +18,14 @@ start participating.
 ## Topics
 
 * [Reporting Security Issues](#reporting-security-issues)
+<<<<<<< HEAD
 * [Design and Cleanup Proposals](#design-and-cleanup-proposals)
 * [Reporting Issues](#reporting-other-issues)
 * [Quick Contribution Tips and Guidelines](#quick-contribution-tips-and-guidelines)
+=======
+* [Reporting Issues](#reporting-other-issues)
+* [Submitting Pull Requests](#submitting-pull-requests)
+>>>>>>> refs/components/cli/HEAD
 * [Community Guidelines](#docker-community-guidelines)
 
 ## Reporting security issues
@@ -30,6 +41,7 @@ We also like to send gifts&mdash;if you're into Docker schwag, make sure to let
 us know. We currently do not offer a paid security bounty program, but are not
 ruling it out in the future.
 
+<<<<<<< HEAD
 
 ## Reporting other issues
 
@@ -44,18 +56,37 @@ updates. Do *not* leave random "+1" or "I have this too" comments, as they
 only clutter the discussion, and don't help resolving it. However, if you
 have ways to reproduce the issue or have additional information that may help
 resolving the issue, please leave a comment.
+=======
+## Reporting other issues
+
+There are separate issue-tracking repos for the end user Docker CE
+products specialized for a platform. Find your issue or file a new issue
+for the platform you are using:
+
+* https://github.com/docker/for-linux
+* https://github.com/docker/for-mac
+* https://github.com/docker/for-win
+* https://github.com/docker/for-aws
+* https://github.com/docker/for-azure
+>>>>>>> refs/components/cli/HEAD
 
 When reporting issues, always include:
 
 * The output of `docker version`.
 * The output of `docker info`.
 
+<<<<<<< HEAD
+=======
+If presented with a template when creating an issue, please follow its directions.
+
+>>>>>>> refs/components/cli/HEAD
 Also include the steps required to reproduce the problem if possible and
 applicable. This information will help us review and fix your issue faster.
 When sending lengthy log-files, consider posting them as a gist (https://gist.github.com).
 Don't forget to remove sensitive data from your logfiles before posting (you can
 replace those parts with "REDACTED").
 
+<<<<<<< HEAD
 ## Quick contribution tips and guidelines
 
 This section gives the experienced contributor some tips and guidelines.
@@ -251,6 +282,15 @@ repository.
 Don't forget: being a maintainer is a time investment. Make sure you
 will have time to make yourself available. You don't have to be a
 maintainer to make a difference on the project!
+=======
+## Submitting pull requests
+
+Please see the corresponding `CONTRIBUTING.md` file of each component for more information:
+
+* Changes to the `engine` should be directed upstream to https://github.com/moby/moby
+* Changes to the `cli` should be directed upstream to https://github.com/docker/cli
+* Changes to the `packaging` should be directed upstream to https://github.com/docker/docker-ce-packaging
+>>>>>>> refs/components/cli/HEAD
 
 ## Docker community guidelines
 
@@ -258,8 +298,13 @@ We want to keep the Docker community awesome, growing and collaborative. We need
 your help to keep it that way. To help with this we've come up with some general
 guidelines for the community as a whole:
 
+<<<<<<< HEAD
 * Be nice: Be courteous, respectful and polite to fellow community members:
   no regional, racial, gender, or other abuse will be tolerated. We like
+=======
+* Be nice: Be courteous, respectful and polite to fellow community members.
+  Regional, racial, gender, or other abuse will not be tolerated. We like
+>>>>>>> refs/components/cli/HEAD
   nice people way better than mean ones!
 
 * Encourage diversity and participation: Make everyone in our community feel
@@ -308,6 +353,7 @@ do need a fair way to deal with people who are making our community suck.
   hammering them in the 3 strikes process.
 
 * The rules apply equally to everyone in the community, no matter how much
+<<<<<<< HEAD
     you've contributed.
 
 * Extreme violations of a threatening, abusive, destructive or illegal nature
@@ -363,3 +409,13 @@ If you are having trouble getting into the mood of idiomatic Go, we recommend
 reading through [Effective Go](https://golang.org/doc/effective_go.html). The
 [Go Blog](https://blog.golang.org) is also a great resource. Drinking the
 kool-aid is a lot easier than going thirsty.
+=======
+        you've contributed.
+
+* Extreme violations of a threatening, abusive, destructive or illegal nature
+        will be addressed immediately and are not subject to 3 strikes or forgiveness.
+
+* Contact abuse@docker.com to report abuse or appeal violations. In the case of
+        appeals, we know that mistakes happen, and we'll work with you to come up with a
+        fair solution if there has been a misunderstanding.
+>>>>>>> refs/components/cli/HEAD

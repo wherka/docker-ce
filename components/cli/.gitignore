@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # if you want to ignore files created by your editor/tools,
 # please consider a global .gitignore https://help.github.com/articles/ignoring-files
 *.exe
@@ -16,3 +17,9 @@ cli/winresources/rsrc_amd64.syso
 /docs/yaml/gen/
 coverage.txt
 profile.out
+=======
+.helpers/
+Dockerfile.engine
+image-linux
+*.tar
+>>>>>>> refs/components/cli/HEAD
